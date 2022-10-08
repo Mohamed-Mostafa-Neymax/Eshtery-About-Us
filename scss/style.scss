@@ -15,6 +15,7 @@ section {
         min-width: 300px;
         img {
             width: 100%;
+            border-radius: 20px;
         }
     }
     .rightSide {
@@ -40,6 +41,7 @@ section {
         min-width: 300px;
         img {
             width: 100%;
+            border-radius: 20px;
         }
     }
     .rightSide {
@@ -55,7 +57,7 @@ section {
     }
 }
 .lastSection {
-    img { width: 100%; }
+    img { width: 100%; border-radius: 20px;}
     .row > div:nth-of-type(2) {
         display: flex;
         flex-direction: column;

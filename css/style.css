@@ -12,7 +12,8 @@ section {
   .increments .leftSideImg {
     min-width: 300px; }
     .increments .leftSideImg img {
-      width: 100%; }
+      width: 100%;
+      border-radius: 20px; }
   .increments .rightSide .normalView {
     display: block; }
     .increments .rightSide .normalView .firstNum, .increments .rightSide .normalView .secondNum, .increments .rightSide .normalView .thirdNum, .increments .rightSide .normalView .forthNum {
@@ -36,7 +37,8 @@ section {
     flex-grow: 1;
     min-width: 300px; }
     .unincrements .leftSideImg img {
-      width: 100%; }
+      width: 100%;
+      border-radius: 20px; }
   .unincrements .rightSide {
     display: flex;
     flex-direction: column;
@@ -50,7 +52,8 @@ section {
       display: block; }
 
 .lastSection img {
-  width: 100%; }
+  width: 100%;
+  border-radius: 20px; }
 .lastSection .row > div:nth-of-type(2) {
   display: flex;
   flex-direction: column;
