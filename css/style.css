@@ -1,0 +1,79 @@
+section {
+  margin: 20px 0px; }
+
+.increments > div {
+  flex: 1; }
+
+.increments {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px; }
+  .increments .leftSideImg {
+    min-width: 300px; }
+    .increments .leftSideImg img {
+      width: 100%; }
+  .increments .rightSide .normalView {
+    display: block; }
+    .increments .rightSide .normalView .firstNum, .increments .rightSide .normalView .secondNum, .increments .rightSide .normalView .thirdNum, .increments .rightSide .normalView .forthNum {
+      color: #CC161D;
+      white-space: nowrap; }
+
+.fakeView {
+  display: none; }
+  .fakeView .firstNum, .fakeView .secondNum, .fakeView .thirdNum, .fakeView .forthNum {
+    color: #CC161D;
+    white-space: nowrap; }
+
+.unincrements > div {
+  flex: 1; }
+
+.unincrements {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 20px; }
+  .unincrements .leftSideImg {
+    flex-grow: 1;
+    min-width: 300px; }
+    .unincrements .leftSideImg img {
+      width: 100%; }
+  .unincrements .rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 2; }
+    .unincrements .rightSide h3 {
+      color: #CC161D; }
+    .unincrements .rightSide span {
+      white-space: nowrap; }
+    .unincrements .rightSide .normalView {
+      display: block; }
+
+.lastSection img {
+  width: 100%; }
+.lastSection .row > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0px; }
+  .lastSection .row > div:nth-of-type(2) h3 {
+    color: #CC161D; }
+  .lastSection .row > div:nth-of-type(2) button {
+    background-color: #CC161D;
+    border: unset;
+    padding: 10px 50px;
+    border-radius: 8px;
+    color: #fff; }
+
+@media only screen and (min-width: 484px) and (max-width: 991px) {
+  .normalView {
+    display: none !important; }
+
+  .fakeView {
+    display: block !important; } }
+@media only screen and (max-width: 483px) {
+  .unincrements > div {
+    flex: unset; } }
+
+/*# sourceMappingURL=style.css.map */
